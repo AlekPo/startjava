@@ -2,14 +2,14 @@ public class Cycle {
 	public static void main(String[] args) {
 		for (int i = 0; i <= 20; i++) {
 			if (i == 0) {
-				System.out.println("Все числа от 0 до 20:");
+				System.out.println("Р’СЃРµ С‡РёСЃР»Р° РѕС‚ 0 РґРѕ 20:");
 			}
 			System.out.print(i + " ");
 		}
 		System.out.println();
 		
 		int g = 6;
-		System.out.println("Все числа от 6 до -6, с шагом итерации 2:");
+		System.out.println("Р’СЃРµ С‡РёСЃР»Р° РѕС‚ 6 РґРѕ -6, СЃ С€Р°РіРѕРј РёС‚РµСЂР°С†РёРё 2:");
 		while (g >= -6) {
 			System.out.print(g + " ");
 			g = g - 2;
@@ -18,10 +18,10 @@ public class Cycle {
 
 		int k = 10;
 		int summ = 0;
-		System.out.println("Сумма всех нечетных чисел от 10 до 20:");
+		System.out.println("РЎСѓРјРјР° РІСЃРµС… РЅРµС‡РµС‚РЅС‹С… С‡РёСЃРµР» РѕС‚ 10 РґРѕ 20:");
 		do {
 			if ((k % 2) != 0) {
-				// System.out.println("Сумма = " + summ + "+ " + k);
+				// System.out.println("РЎСѓРјРјР° = " + summ + "+ " + k);
 				summ = summ + k;
 			}
 			k++;

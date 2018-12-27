@@ -1,20 +1,20 @@
 public class Variable {
 	public static void main(String[] args) {
-		byte b = 2; //Количество ядер
-		short s = 4; //Оперативная память
-		int i = 1803; //Версия Windows
-		long l = 9_223_372_036_854_775_807L; //Максимальное значение long
-		float f = 3.70F; //Частота процессора
-		double d = 17134.472D; //Сборка операционной системы
-		char c = 'W'; //Просто W
+		byte b = 2; //РљРѕР»РёС‡РµСЃС‚РІРѕ СЏРґРµСЂ
+		short s = 4; //РћРїРµСЂР°С‚РёРІРЅР°СЏ РїР°РјСЏС‚СЊ
+		int i = 1803; //Р’РµСЂСЃРёСЏ Windows
+		long l = 9_223_372_036_854_775_807L; //РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ long
+		float f = 3.70F; //Р§Р°СЃС‚РѕС‚Р° РїСЂРѕС†РµСЃСЃРѕСЂР°
+		double d = 17134.472D; //РЎР±РѕСЂРєР° РѕРїРµСЂР°С†РёРѕРЅРЅРѕР№ СЃРёСЃС‚РµРјС‹
+		char c = 'W'; //РџСЂРѕСЃС‚Рѕ W
 		boolean bl = false;
 
-		System.out.println("Количество ядер: " + b);
-		System.out.println("Оперативная память: " + s);
-		System.out.println("Версия Windows: " + i);
-		System.out.println("Максимальное значение long: " + l);
-		System.out.println("Частота процессора: " + f + " GHz");
-		System.out.println("Сборка операционной системы: " + d);
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ СЏРґРµСЂ: " + b);
+		System.out.println("РћРїРµСЂР°С‚РёРІРЅР°СЏ РїР°РјСЏС‚СЊ: " + s);
+		System.out.println("Р’РµСЂСЃРёСЏ Windows: " + i);
+		System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ long: " + l);
+		System.out.println("Р§Р°СЃС‚РѕС‚Р° РїСЂРѕС†РµСЃСЃРѕСЂР°: " + f + " GHz");
+		System.out.println("РЎР±РѕСЂРєР° РѕРїРµСЂР°С†РёРѕРЅРЅРѕР№ СЃРёСЃС‚РµРјС‹: " + d);
 		System.out.println("char c = " + c);
 		System.out.println("boolean b = " + bl);
 	}
