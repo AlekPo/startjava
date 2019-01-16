@@ -1,0 +1,8 @@
+# no *.* files (ignore all files)
+*.*
+# but do track *.java, even though you're ignoring all files above
+!*.java
+# Exclude from tracking directories "out"
+out/
+# Exclude from tracking directories "bin"
+bin/
